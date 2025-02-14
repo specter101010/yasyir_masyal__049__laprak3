@@ -1,7 +1,3 @@
-# yasyir_masyal__049__laprak3
-laporan praktik wireshark
-
-
   <table>
         <tr>
             <th>Nama</th>
@@ -52,6 +48,68 @@ Menyimpan hasil dalam format .pcap untuk analisis lebih lanjut.
 Meyimpan hasil dengan format CSV, untuk menganalisis perhitunga QOS
   </li>
 </ul>
+
+
+<h2 style="font-weight: bold;">
+Pengaplikasian
+</h2 >
+
+<ol>
+    <li>
+  Membuka wireshark dan menjalankan dengan jaringan yang sudah di pilih seperti gambar di bawah
+  </li>
+  <img src="open wireshark.png" width="320px">
+    <li>
+      Lakukan analsis dari data yang ada dengan melihat data dari tabel analisis yang ada wireshark
+  </li>
+  <img src="open wireshark.png" width="320px">
+    <li>
+      Buka tab statistik pada bar
+    </li>
+  <img src="open analisis view.png" width="320px">
+    <li>
+      Klik Capture file Properties, dapat dilihat beberapa component penting untuk perhitungan QOS seperti bites,packets dll
+    </li>
+  <img src="analsisi properties.png" width="320px">
+    <li>
+      Import file menjadi CSV untuk melakukan analisis yang lebih mendalam
+    </li>
+     <li>
+      Klik Tab File pada Bar
+     </li>
+  <img src="open bar file.png" width="320px">
+    </li>
+     <li>
+       Klik Export Packet Disection, export to CSV
+     </li>
+  <img src="save as file.png" width="320px">
+     <li>
+       Lakukan beberapa perhitungan dengan data yang  ada pada Analisis Propertis tadi
+     </li>
+  <img src="qos awal.png" width="320px">
+     <li>
+       Untuk mencari delay dan jitter di perlukan analisis tambahan di CSV
+     </li>
+     <li>
+       Lakukan pengkategorian untuk mencari Delay dan Jitter seperti gambar di samping
+     </li>
+  <img src="open csv.png" width="320px">
+     <li>
+      Perhitungan untuk mencari Delay
+     </li>
+  <img src="delay.png" width="320px">
+     <li>
+      Perhitungan untuk mencari Jitter
+     </li>
+  <img src="jitter.png" width="320px">
+     <li>
+     Perhitungan Lengkap QOS ( Quality of Service )
+     </li>
+  <img src="qos akhir.png" width="320px">
+   
+</ol
+
+
 
 
 
