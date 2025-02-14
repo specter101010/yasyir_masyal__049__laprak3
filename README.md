@@ -109,6 +109,40 @@ Pengaplikasian
    
 </ol
 
+<br>
+
+<h2>Kesimpulan </h2>
+
+
+<p>
+  Berdasarkan analisis, lalu lintas jaringan menunjukkan aktivitas normal dengan beberapa anomali yang perlu diperhatikan. Dari segi QoS, jaringan menunjukkan kinerja yang cukup baik dengan beberapa area yang perlu ditingkatkan. Untuk meningkatkan keamanan dan kinerja jaringan, beberapa rekomendasi yang dapat diterapkan antara lain:
+</p>
+
+<ul>
+  <li>
+    Menerapkan firewall untuk memblokir lalu lintas mencurigakan.
+  </li>
+  <li>
+    Memantau dan membatasi permintaan DNS yang berlebihan.
+  </li>
+  <li>
+Menggunakan sistem deteksi intrusi (IDS) untuk mengidentifikasi potensi serangan lebih lanjut.
+  </li>
+  <li>
+Mengoptimalkan QoS dengan pengaturan bandwidth dan prioritas lalu lintas jaringan.
+  </li>
+  <li>
+Mengurangi jitter dengan mengimplementasikan traffic shaping dan QoS policies.
+  </li>
+ 
+</ul>
+
+
+
+
+
+
+
 
 
 
